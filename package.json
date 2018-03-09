@@ -1,0 +1,30 @@
+{
+  "name": "sdsa-member-verification",
+  "version": "1.0.0",
+  "description": "API to verify whether a given email belongs to a valid SDSA member",
+  "main": "./js/index.js",
+  "repository": "https://github.com/SeattleDSA/sdsa-member-verification",
+  "author": "Dave Benvenuti",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.5",
+    "mailchimp-api-v3": "^1.8.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node dist/api.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-strict-mode": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "dotenv": "^5.0.1",
+    "edge": "^7.10.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
